@@ -1,0 +1,27 @@
+# Changes require /funnel reload or a server restart.
+beam:
+  damage: 2.0
+  range: 32.0
+  cooldown-ticks: 12
+  particle-step: 0.45
+pack:
+  send-on-join: true
+  require: false
+  # A public HTTPS download URL can override the built-in host (recommended for online servers).
+  external-url: ""
+  embedded-http:
+    enabled: true
+    bind-host: "0.0.0.0"
+    port: 8765
+    # For the same PC only: 127.0.0.1. For remote players, set a reachable DNS name or IP.
+    public-host: "127.0.0.1"
+
+# Four independently animated ItemDisplay drones.
+drones:
+  enabled: true
+  orbit-radius: 1.25
+  height: 1.45
+  bob-amplitude: 0.18
+  angular-speed: 0.055
+  update-ticks: 2
+  teleport-duration: 2

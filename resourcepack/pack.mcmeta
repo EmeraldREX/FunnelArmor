@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "Funnel Armor \u2022 Four floating beam emitters",
+    "min_format": [
+      97,
+      1
+    ],
+    "max_format": [
+      97,
+      1
+    ]
+  }
+}
